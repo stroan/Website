@@ -1,0 +1,37 @@
+{% assign currentloc = "GLRY" %}
+{% include header.html %}
+
+    <div class="section-title">
+    
+        <h1 class="title">Galleries</span></h1>
+                        
+    </div>
+
+    {% for gallery in page.galleries %}
+    {% if gallery.display %}
+    <div class="one-third">
+            
+        <h2 class="title">{{ gallery.title }}</h2>
+            
+        {{ gallery.description | markdownify }}     
+        
+    </div><!--END ONE-THIRD-->
+
+    <div class="two-third last">
+        <div class="flexslider" name="portfolio-slider-{{ gallery.id }}">
+            <ul class="slides">
+                {% for image in gallery.images %}
+                <li>
+                    <img src="{{ image.url }}" alt="" />
+                    <p class="flex-caption"><a href="{{ image.url }}">{{ image.caption }}</a></p>
+                </li>
+                {% endfor %}
+            </ul><!--END UL SLIDES-->
+        </div>
+    </div><!--END TWO-THIRD-->
+    <div class="divider-border"></div>
+    {% endif %}
+    {% endfor %}
+
+
+{% include footer.html %}

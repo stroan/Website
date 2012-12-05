@@ -1,0 +1,20 @@
+safe: false
+auto: false
+server: false
+server_port: 4000
+
+source: .
+destination: ./_site
+plugins: ./_plugins
+
+category_dir: blog
+home_categories:
+  - Tech
+  - Art
+
+exclude: [ galleries.yml ]
+
+permalink: /blog/:year/:month/:day/:title
+paginate: 5
+pygments: true
+markdown: maruku

@@ -1,0 +1,48 @@
+{% assign currentloc = "HOME" %}
+{% include header.html %}
+
+
+    <div class="section-title text-align-center">
+    
+        <h1 class="title">Hello! Welcome to the personal website of Stephen Roantree.</h1>
+        <p>My projects, galleries, and blog.</p>  
+                        
+    </div><!--END SECTION TITLE-->
+
+    <h3 class="title">My Projects </h3>
+    <div class="portfolio-grid">
+        <ul id="thumbs">
+            {% project_portfolio hsexpect %}
+            {% project_portfolio lamn %}
+        </ul>
+    </div>
+
+    <div class="divider-border"></div>
+    <h3 class="title">Recent Posts</h3>
+
+    {% for post in page.posts %}
+    <div class="post">
+        <div class="post-info">                     
+            <div class="date"><span class="month">{{ post.post.date | date_to_short_month }}</span><span class="day">{{ post.post.date | date_to_day }}</span><span class="month">{{ post.post.date | date_to_year }}</span></div>                 
+        </div><!--END POST-INFO-->      
+        
+        <div class="post-content" style="float:left; width:600px">
+                
+            <div class="post-title">                
+                <h2 class="title"><a href="/blog/{{post.category}}/">{{ post.category }}</a> - <a href="{{ post.post.url }}">{{ post.post.title }}</a></h2>
+            </div><!--END POST-TITLE-->
+        
+            <div class="post-meta">             
+                <ul>
+                    <li><span>Posted by</span> <a href="#">Stephen Roantree</a></li>
+                </ul>
+            </div><!--END POST-META-->
+
+            {{ post.post.content }}
+            
+        </div><!--END POST-CONTENT -->
+        
+    </div><!--END POST-->
+    {% endfor %}
+
+{% include footer.html %}

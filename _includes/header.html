@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<title>Stephen Roantree - {{ page.title }}</title>
+
+<link rel="shortcut icon" href="/images/favicon.png" />
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/pygments.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/blog.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/socialize-bookmarks.css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css' />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="/javascript/custom.js"></script>
+<script type="text/javascript" src="/javascript/header.js"></script>
+<script type="text/javascript" src="/javascript/twitter.js"></script>
+
+<!-- PrettyPhoto --> 
+<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/javascript/prettyPhoto.js"></script>    
+
+<!-- Photostream Javascript --> 
+<script type="text/javascript" src="/javascript/bra.photostream.js"></script>
+
+<!-- Flexslider JavaScript Files -->    
+<script type="text/javascript" src="/javascript/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />  
+
+</head>
+
+<body id="top">
+
+<div id="wrapper">  
+
+<div class="content-wrapper clear">
+
+    <!-- START HEADER -->
+    
+    <div id="header-wrapper">
+    
+        <div class="header clear">
+            
+            <div id="logo"> 
+                <a href="/"><img src="/images/logo.png" alt="" /></a>       
+            </div><!--END LOGO-->
+        
+            <div id="primary-menu">
+                
+                <ul class="menu">
+                    <li><a href="/" {% if currentloc == "HOME" %} class="current" {% endif %}>Home</a></li>
+                    <li><a href="/gallery/" {% if currentloc == "GLRY" %} class="current" {% endif %}>Galleries</a></li>
+                    <li><a href="#" {% if currentloc == "PROJ" %} class="current" {% endif %}>Projects</a>
+                        <ul>
+                            <li><a href="/projects/haskell-libexpect.html">haskell-libexpect</a></li>
+                            <li><a href="/projects/lamn.html">lamn</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/blog/Everything/" {% if currentloc == "BLOG" %} class="current" {% endif %}>Blog</a>    
+                        <ul>
+                            <li><a href="/blog/Tech/">Tech</a></li>
+                            <li><a href="/blog/Art/">Art</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/about.html" {% if currentloc == "REME" %} class="current" {% endif %}>About Me</a></li>
+                </ul><!--END UL-->
+                                
+            </div><!--END PRIMARY MENU-->
+            
+        </div><!--END HEADER--> 
+        
+    </div><!--END HEADER-WRAPPER-->   

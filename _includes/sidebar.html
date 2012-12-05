@@ -1,0 +1,34 @@
+
+        
+        
+        
+        <div id="sidebar">  
+    
+            {% if page.archives %}
+            <div class="widget">
+                <h3 class="title">{{page.category | upcase }} Archive</h3>
+                <ul class="archive">
+                    {% for month in page.archive %}
+                    <li><a href="{{ month.address }}">{{ month.name }}</a>&nbsp;({{ month.count }})</li>
+                    {% endfor %}
+                </ul><!--END UL-->  
+            </div><!--END WIDGET-->
+            {% endif %}
+
+            {% if page.categories %}
+            <div class="widget">
+                <h3 class="title">Post Categories</h3>
+                <ul class="archive">
+                    {% for cat in page.categories %}
+                    <li><a href="/blog/{{ cat }}/">{{ cat }}</a></li>
+                    {% endfor %}
+                </ul><!--END UL-->  
+            </div><!--END WIDGET-->
+            {% endif %}
+    
+            <div class="widget">
+                <h3 class="title">Recent Tweets</h3>
+                <div class="tweets"></div> 
+            </div><!--END WIDGET-->  
+            
+        </div><!--END SIDEBAR-->

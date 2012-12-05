@@ -1,0 +1,91 @@
+sketches:
+    title: Sketches
+    description: |
+      The gallery of the sketches which I've posted in the blog. These aren't
+      presented in any particular order. Materials used:
+
+      * *Pen*: Mostly Letraset 0.1 Fine Line Drawing Pen.
+      * *Pencil*: Almost entirely 3B pencils.
+      * *Digital*: Sketchbook Pro.
+
+      Digitized by a combination of scanned images and photos taken with my 
+      phone.
+    display: true
+    images:
+      wanda1:
+        url: /gallery/wanda1.jpg
+        caption: A sketch of Wanda Maximoff.
+      batwoman:
+        url: /gallery/batwoman.jpg
+        caption: A sketch of Batwoman.
+      adama:
+        url: /gallery/adama.jpg
+        caption: A sketch of Bill Adama.
+      saga2:
+        url: /gallery/saga2.jpg
+        caption: A sketch of the cover of issue 2 of Saga.
+      batman:
+        url: /gallery/batman.jpg
+        caption: A sketch of Batman.
+      cow:
+        url: /gallery/cow.png
+        caption: Creature of the week sketch.
+      cow_color:
+        url: /gallery/cow_color.png
+        caption: Colored sketch.
+      hummingbird:
+        url: /gallery/hummingbird.jpg
+        caption: Digitally painted humming bird.
+      bw_portrait:
+        url: /gallery/bw_portrait.jpg
+        caption: Portrait digital painting.
+      skull:
+        url: /gallery/skull.jpg
+        caption: Pencil drawing of a skull.
+      eye:
+        url: /gallery/eye.jpg
+        caption: Digital painting of an eye.
+      concept:
+        url: /gallery/concept.jpg
+        caption: COW sketch attempt.
+      holiday1:
+        url: /gallery/holiday1.jpg
+        caption: Quick sketch done on holiday.
+      holiday2:
+        url: /gallery/holiday2.jpg
+        caption: Quick sketch done on holiday.
+      artsy1:
+        url: /gallery/artsy1.jpg
+        caption: Reilly shading practice.
+      artsy2:
+        url: /gallery/artsy2.jpg
+        caption: Reilly shading practive.
+      still_life:
+        url: /gallery/still_life.jpg
+        caption: Still life practice
+      painting1:
+        url: /gallery/painting1.jpg
+        caption: Digital painting practice.
+      painting2:
+        url: /gallery/painting2.jpg
+        caption: Digital painting practice.
+      painting3:
+        url: /gallery/painting3.jpg
+        caption: Digital painting practice.
+      torchlight1:
+        url: /gallery/torchlight1.jpg
+        caption: Drawing from a piece of Torchlight promo art.
+      pendoodle1:
+        url: /gallery/pendoodle1.jpg
+        caption: A quick doodle with pen.
+private:
+    title: 
+    description: 
+    display: false
+    images:
+      church:
+        url: /gallery/church.jpg
+        caption: A sketch of Wanda Maximoff.
+      tea:
+        url: /gallery/tea.jpg
+        caption: Picture of a cup of tea.
