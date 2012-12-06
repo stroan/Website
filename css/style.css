@@ -45,6 +45,7 @@ pre{
 	border: 1px #BBB solid;
 	padding: 5px;
 	margin: 10px;
+	overflow: auto;
 }
 code{
 	-moz-border-radius: 2px;
