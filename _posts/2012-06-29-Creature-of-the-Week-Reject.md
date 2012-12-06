@@ -2,7 +2,7 @@
 title: Creature of the Week Reject
 layout: post
 date: 2012-06-29 0:30:00
-category:
+categories:
   - Art
   - Everything
 ---

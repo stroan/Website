@@ -2,7 +2,7 @@
 title: Hummingbird
 layout: post
 date: 2012-06-29 17:30:00 
-category:
+categories:
   - Art
   - Everything
 ---

@@ -1,7 +1,7 @@
 ---
 title: Reilly Shading
 layout: post
-category:
+categories:
   - Art
   - Everything
 ---

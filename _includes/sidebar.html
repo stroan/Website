@@ -15,16 +15,14 @@
             </div><!--END WIDGET-->
             {% endif %}
 
-            {% if page.categories %}
             <div class="widget">
-                <h3 class="title">Post Categories</h3>
+                <h3 class="title">Blog Categories</h3>
                 <ul class="archive">
-                    {% for cat in page.categories %}
-                    <li><a href="/blog/{{ cat }}/">{{ cat }}</a></li>
+                    {% for cat in site.categories %}
+                    <li><a href="/blog/{{ cat[0] }}/">{{ cat[0] }}</a></li>
                     {% endfor %}
                 </ul><!--END UL-->  
             </div><!--END WIDGET-->
-            {% endif %}
     
             <div class="widget">
                 <h3 class="title">Recent Tweets</h3>
