@@ -78,6 +78,9 @@ sketches:
       pendoodle1:
         url: /gallery/pendoodle1.jpg
         caption: A quick doodle with pen.
+      s_portrait:
+        url: /gallery/s_portrait.jpg
+        caption: First drawing of 2013!
 private:
     title: 
     description: 
